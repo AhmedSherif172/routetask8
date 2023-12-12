@@ -1,0 +1,27 @@
+body{
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+body h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 80px;
+    font-weight: 500;
+}
+body p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+}
+body button{
+    border-bottom-right-radius: 30%;
+    border-top-left-radius: 30%;
+    border-style: solid;
+    padding: 30px 60px;
+    background-color: aqua;
+    transition: 0.3s;
+}
+body button:hover{
+    background-color: green;
+    border-style: dashed;
+    border-color: white;
+}
